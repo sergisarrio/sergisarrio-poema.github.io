@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Charmonman:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Give+You+Glory" rel="stylesheet">  
+		<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Srisakdi" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">  
+	<title>ADIVINANZA</title>
+	<style type="text/css">
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		/*@font-face{ <!--Para las tipografias en carpetas locales.-->
+			font-family:;
+			src:url(''),url('');/Se meten las tipografias en el url para indicar que archivo es./
+			}*/
+		body{
+			background:black;
+		}
+		.content{
+			width:800px;
+			height:600px;
+			top:75px;
+			left:400px;
+			position:absolute;
+			padding:30px;
+			z-index:1;
+		}
+		.content_2{
+			width:800px;
+			height:600px;
+			top:90px;
+			left:520px;
+			position:absolute;
+		}
+		.content_3{
+			width:800px;
+			height:600px;
+			top:260px;
+			left:440px;
+			position:absolute;
+			z-index:1;
+		}
+		.content_4{
+			width:800px;
+			height:600px;
+			top:285px;
+			left:440px;
+			position:absolute;
+			z-index:-2;
+		}
+		.content_5{
+			width:800px;
+			height:600px;
+			top:380px;
+			left:430px;
+			position:absolute;
+		}
+		.content_6{
+			width:400px;
+			height:200px;
+			top:343px;
+			left:693px;
+			position:absolute;
+		}
+		.content_7{
+			width:1000px;
+			height:100px;
+			top:530px;
+			left:350px;
+			position:absolute;
+		}
+		.content_8{
+			width:1000px;
+			height:100px;
+			top:640px;
+			left:340px;
+			position:absolute;
+		}
+		.content_9{
+			width:800px;
+			height:600px;
+			top:800px;
+			left:440px;
+			position:absolute;
+		}
+		.content_10{
+			width:800px;
+			height:600px;
+			top:900px;
+			left:440px;
+			position:absolute;
+		}
+		p{
+			font-size:30px;
+			text-align:center;
+			line-height:2.3;
+
+		}
+		#uno{
+			font-size:30px;
+			color:#ffffff;
+			font-family: 'Cinzel', serif;
+			line-height:2;
+			
+		}
+		#desgarraria_1{
+			font-size:60px;
+			color:#ffffff;
+			font-family: 'Charmonman', cursive;
+		}
+		#dos{
+			font-size:60px;
+			color:purple;
+			opacity:0.8;
+			font-family: 'Charmonman', cursive;
+		}
+		#tres{
+			font-size:30px;
+			font-family: 'Give You Glory', cursive;
+			color:white;
+		}
+		#ocurriria_1{
+			font-size:60px;
+			font-family: 'Ultra', serif;
+			color:white;
+		}
+		#cuatro{
+			font-size:60px;
+			font-family: 'Ultra', serif;
+			color:purple;
+			opacity:0.7;
+			padding:0px 0px 0px 220px;
+
+		}
+		#cinco{
+			font-size:40px;
+			color:white;
+			font-family: 'Srisakdi', cursive;
+			line-height:1.2;
+		}
+		#respuesta_1{
+			font-size:60px;
+			font-family: 'Boogaloo', cursive;
+			color:white;
+		}
+		#adivinanza_1{
+			font-size:60px;
+			font-family: 'Amatic SC', cursive;
+		}
+		#seis{
+			font-size:60px;
+			font-family: 'Boogaloo', cursive;
+			color:black;
+		}
+		#siete{
+			font-size:35px;
+			font-family: 'Nova Mono', monospace;
+			color:white;
+		}
+		#ocho{
+			font-family: 'Charmonman', cursive;
+			color:white;
+			line-height:1.6;
+		}
+		#nueve{
+			font-size:40px;
+			font-family: 'Give You Glory', cursive;
+			color:white;
+		}
+		#diez{
+			font-size:40px;
+			font-family: 'Nova Mono', monospace;
+			color:white;
+		}
+		img{
+			width:100px;
+			height:100px;
+			left:350px;
+			position:absolute;
+		}
+		#img_hp{
+			width:100px;
+			height:100px;
+			background:black;
+			z-index:2;
+		}
+		#img_spider{
+			width:100px;
+			height:100px;
+			display:block;
+			background:black;
+		}
+		#img_hp:hover{
+			display:none;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="content">
+		<p id="uno">"Si te lo hiciera, te <span id="desgarraria_1">desgarraría</span> con mis zarpas,</p>
+	</div>
+	<div class="content_2">
+		<p id="dos">desgarraría</p>
+	</div>
+	<div class="content_3">
+		<p id="tres">pero eso sólo <span id="ocurriria_1">ocurriría</span> sino lo captas.</p>
+	</div>
+	<div class="content_4">
+		<span id="cuatro">ocurriría</span>
+	</div>
+	<div class="content_5">
+		<p id="cinco">Y no es fácil la <span id="respuesta_1">RESPUESTA</span> de esta <span id="adivinanza_1">adivinanza,</span></p>
+	</div>
+	<div class="content_6">
+		<p id="seis">RESPUESTA</p>
+	</div>
+	<div class="content_7">
+		<p id="siete">por qué esta lejana, en tierras de bonanza,</p>
+	</div>
+	<div class="content_8">
+		<p id="ocho">donde empieza la región de las montañas de arena</br>y</br>acaba la de los toros, la sangre, el mar y la verbena.</p>
+	</div>
+	<div class="content_9">
+		<p id="nueve">Y ahora contesta,tú,que has venido a jugar:</p>
+	</div>
+	<div class="content_10">
+		<p id="diez">¿A qué animal no te gustaría besar?</p>
+		<img src="images/harry_glasses_white.png" id="img_hp">
+		<img src="images/spider.png" id="img_spider">
+	</div>
+</body>
+</html>
